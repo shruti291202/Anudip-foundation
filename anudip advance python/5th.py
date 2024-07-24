@@ -1,0 +1,7 @@
+file=open("india.txt",'w')
+file.write("india is a developing country india is good")
+file.close()
+file=open('india.txt', 'r')
+text = file.read()
+count = text.count('india')
+print(f"The word 'india' occurs {count} times in the file.")
